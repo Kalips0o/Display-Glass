@@ -1,0 +1,61 @@
+* {
+    font-size: 18px;
+}
+.center {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ourAddress {
+    border-left: 3px solid#92cbe6;
+    margin: 20px;
+}
+
+.ourAddress h2 {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    width: 10em;
+    height: 2.5em;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #9dddfa;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #92cbe6;
+    background: linear-gradient(#afdff5, #9dddfa);
+  }
+  
+  
+  .button:active {
+    outline: none;
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  }
+  
+
+ 
+@media  (max-width: 992px) {
+
+    .center {
+        display: block;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+  }
+ 

@@ -1,0 +1,21 @@
+h3 {
+	text-align: center;
+	padding: 10px;
+}
+.col3 {
+	max-width: 25%;
+}
+.col9 {
+	max-width: 75%;
+}
+
+@media  (max-width: 1000px) {
+.row {
+	display: inline-block;
+}
+.col3{ 
+	
+	max-width: 100%;
+}
+	
+}

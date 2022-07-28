@@ -1,0 +1,76 @@
+.item {
+    padding-bottom: 10px;
+}
+
+.item:active {
+    font-weight: bold;
+    color: #92cbe6;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.item:hover {
+    font-weight: bold;
+    color:#92cbe6;
+    cursor: pointer;
+}
+
+.model {
+    text-align: center;
+}
+.textString {
+    display: flex;
+    justify-content: space-between;
+}
+.allInformation .textString:nth-of-type(odd)  {
+    background-color: #bcdff0;
+}
+.allInf {
+    display: flex;
+}
+.textImg {
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.Nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.Item {
+    flex:1 1 calc(100% - 30px);
+    margin: 0.5%;
+    background-color: #e1edf3;
+    border-radius: 2px;
+    
+   
+}
+.Item:active {
+    outline: none;
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(235, 231, 231, 0.05) inset;
+
+}
+
+
+@media  (max-width: 1000px) {
+    .allInf  {
+        display: block;
+    }
+
+    .textImg {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .MenuItem {
+        display: inline-block;
+        text-align: center;
+    }
+    .Item {
+        width: 100%;
+    }
+}
