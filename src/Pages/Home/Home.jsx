@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Home.module.css';
-import { Container } from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import laba from '../../assets/laba/laba.JPG';
 import icon1 from '../../assets/icon/1.png';
 import icon2 from '../../assets/icon/2.png';
@@ -10,7 +10,7 @@ import icon4 from '../../assets/icon/4.png';
 import CarouselBox from '../../Components/CarouselBox';
 
 import CarouselBox2 from '../../Components/CarouselBox2';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -25,19 +25,19 @@ const Home = () => {
                 <p>
                   Наша компания находится в городе Минске. Компания была основана в июне 2014г. Наша компания
                   специализируется на разработке и производстве систем отображения информации, систем дополненной
-                  реальности, ЭВМ для жестких условий эксплуатации.Предприятие имеет производственные площади с 
-                  чистой зоной, соответствующей классу чистоты ISO6 и ISO7, позволяющие выполнять любую работу, 
+                  реальности, ЭВМ для жестких условий эксплуатации.Предприятие имеет производственные площади с
+                  чистой зоной, соответствующей классу чистоты ISO6 и ISO7, позволяющие выполнять любую работу,
                   связанную с дисплеями.
                 </p>
-                <Link to='/about' onClick={() => {window.scrollTo(0, 0);}}> 
-                  <button className="btn btn-secondary">
+                <Link to='/about'>
+                  <button className='button'>
                     <span>Подробнее</span>
                   </button>
                 </Link>
               </div>
             </div>
             <div className={s.productInfo}>
-            <img src={laba} className={s.laba}  alt="laba"/>
+              <img src={laba} className={s.laba}/>
             </div>
           </div>
         </div>
@@ -46,8 +46,8 @@ const Home = () => {
           <div className={s.infoBlocks}>
             <div className={s.infoItemBlock}>
               <div className={s.infoImgTitle}>
-                <div className={s.infoTitle}> <img src={icon1} width="50" height="50" className={s.leftimg} alt='ico' />
-                  <Link to='/service' onClick={() => {window.scrollTo(0, 0);}}>
+                <div className={s.infoTitle}><img src={icon1} width="50" height="50" className={s.leftimg}/>
+                  <Link to='/service'>
                     <p> Разработка и производство систем отображения информации специального назначения</p>
                   </Link>
                 </div>
@@ -55,8 +55,8 @@ const Home = () => {
             </div>
             <div className={s.infoItemBlock}>
               <div className={s.infoImgTitle}>
-                <div className={s.infoTitle}> <img src={icon2} width="50" height="50" className={s.leftimg}  alt='ico' />
-                  <Link to='/service' onClick={() => {window.scrollTo(0, 0);}}>
+                <div className={s.infoTitle}><img src={icon2} width="50" height="50" className={s.leftimg}/>
+                  <Link to='/service'>
                     <p>Участие в новых проектах, научно-исследовательских и опытно-конструкторских работах</p>
                   </Link>
                 </div>
@@ -64,8 +64,8 @@ const Home = () => {
             </div>
             <div className={s.infoItemBlock}>
               <div className={s.infoImgTitle}>
-                <div className={s.infoTitle}> <img src={icon3} width="50" height="50" className={s.leftimg}  alt='ico'  />
-                  <Link to='/service' onClick={() => {window.scrollTo(0, 0);}}>
+                <div className={s.infoTitle}><img src={icon3} width="50" height="50" className={s.leftimg}/>
+                  <Link to='/service'>
                     <p>Проведение широкого спектра испытаний любой сложности и продолжительности</p>
                   </Link>
                 </div>
@@ -73,8 +73,8 @@ const Home = () => {
             </div>
             <div className={s.infoItemBlock}>
               <div className={s.infoImgTitle}>
-                <div className={s.infoTitle}> <img src={icon4} width="50" height="50" className={s.leftimg}  alt='ico' />
-                  <Link to='/service' onClick={() => {window.scrollTo(0, 0);}}>
+                <div className={s.infoTitle}><img src={icon4} width="50" height="50" className={s.leftimg}/>
+                  <Link to='/service'>
                     <p>3D Моделирование и оформление конструкторской документации </p>
                   </Link>
                 </div>
@@ -95,8 +95,8 @@ const Home = () => {
                   холод севера или при ярком солнце в пустыне, а используя совместно с ЭВМ специального назначения,
                   позволит выполнять любую поставленную задачу.
                 </p>
-                <Link to='/product' onClick={() => {window.scrollTo(0, 0);}}>
-                  <button className="btn btn-secondary">
+                <Link to='/about'>
+                  <button className='button'>
                     <span>Подробнее</span>
                   </button>
                 </Link>

@@ -12,11 +12,13 @@ export class Header extends Component {
                 <Navbar collapseOnSelect expand='lg' bg='light' font-size="20px">
                     <Container>
                         <Navbar.Brand className={s.navBrand}>
-                            <img src={logo}/>
-                            <Link to='/' onClick={() => {
-                                window.scrollTo(0, 0);
-                            }}>Display Glass
-                            </Link>
+                            <div>
+                                <img src={logo}/>
+                                <Link to='/' onClick={() => {
+                                    window.scrollTo(0, 0);
+                                }}>Display Glass
+                                </Link>
+                            </div>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                         <Navbar.Collapse id='responsive-navbar-nav'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import s from '../About/About.module.css';
 import p from './Service.module.css';
 
@@ -10,7 +10,7 @@ const Service = () => {
       <div className={s.pageTitle}>
         <div className={s.center}>
           <Container>
-            <h1> Услуги</h1>
+            <h1> Наши услуги</h1>
           </Container>
         </div>
       </div>

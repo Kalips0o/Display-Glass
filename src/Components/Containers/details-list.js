@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 import s from './list.module.css';
 
 
-
 class Details extends Component {
-    render () {
-        if(!this.props.model) {
+    render() {
+        if (!this.props.model) {
             return (<p></p>)
         }
         return (
             <>
                 <h2 className={s.model}>{this.props.model.model}</h2>
-                 <div className={s.allInf}>
-                    <div >
-                    
+                <div className={s.allInf}>
+                    <div className={s.img}>
+                        <img src={this.props.model.img}/>
                     </div>
-                <div className={s.textImg}>
-                    {this.props.model.text}
-                </div>
+                    <div className={s.textImg}>
+                        <h3>Описание</h3>
+                        {this.props.model.text}
+                    </div>
                 </div>
                 <div className={s.allInformation}>
                     <h3>Технические характеристи</h3>

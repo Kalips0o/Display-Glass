@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import Fly from '../assets/1.jpg';
 import Sky from '../assets/2.jpg';

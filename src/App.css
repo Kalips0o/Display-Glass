@@ -19,7 +19,7 @@ ul {
 }
 
 li:before {
-   list-style-type: none;
+    list-style-type: none;
 }
 
 .button{
@@ -51,4 +51,3 @@ li:before {
 .main {
   min-height: 100vh
 }
-

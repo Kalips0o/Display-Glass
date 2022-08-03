@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Container } from 'react-bootstrap';
+import React, {Component} from 'react';
+import {Container} from 'react-bootstrap';
 import s from './About.module.css';
 
 import icon1 from '../../assets/iconAbout/1.png';
@@ -9,7 +9,6 @@ import icon3 from '../../assets/iconAbout/3.png';
 import laba1 from '../../assets/laba/1.JPG';
 import laba2 from '../../assets/laba/2.JPG';
 import laba3 from '../../assets/laba/3.JPG';
-
 
 
 export default class About extends Component {
@@ -39,12 +38,12 @@ export default class About extends Component {
           </div>
 
           <div className={s.laba}>
-          
-            <img src={laba1}  alt='laba1' />
-                   
-            <img src={laba2} alt='laba2' />
-          
-           <img src={laba3} alt='laba3' />
+
+            <img src={laba1}/>
+
+            <img src={laba2}/>
+
+            <img src={laba3}/>
           
         </div>
           
@@ -53,7 +52,7 @@ export default class About extends Component {
             <div className={s.flex}>
               <div className={s.item}>
                 <div className={s.icon}>
-                  <img src={icon1} width="80" height="80" className={s.leftimg} alt='ico1' />
+                  <img src={icon1} width="80" height="80" className={s.leftimg}/>
                 </div>
                 <div className={s.text}>
                   Высокое качество
@@ -61,7 +60,7 @@ export default class About extends Component {
               </div>
               <div className={s.item}>
                 <div className={s.icon}>
-                  <img src={icon2} width="80" height="80" className={s.leftimg} alt='ico2'/>
+                  <img src={icon2} width="80" height="80" className={s.leftimg}/>
                 </div>
                 <div className={s.text}>
                   Расширенная гарантия
@@ -69,7 +68,7 @@ export default class About extends Component {
               </div>
               <div className={s.item}>
                 <div className={s.icon}>
-                  <img src={icon3} width="80" height="80" className={s.leftimg} alt='ico3' />
+                  <img src={icon3} width="80" height="80" className={s.leftimg}/>
                 </div>
                 <div className={s.text}>
                   Индивидуальный подход

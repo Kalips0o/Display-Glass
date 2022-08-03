@@ -1,9 +1,9 @@
 import React from 'react';
 import s from '../About/About.module.css';
 import p from './Contacts.module.css';
-import { Container } from 'react-bootstrap';
-import { Forma} from '../../Components/Actions/FormComponent/Form.jsx';
-import { YMaps, Map } from 'react-yandex-maps';
+import {Container} from 'react-bootstrap';
+import FormCode from '../../Components/Actions/FormCode';
+import {Map, YMaps} from 'react-yandex-maps';
 
 const style = {
   position: 'absolute',
@@ -58,7 +58,7 @@ class Contacts extends React.Component {
           </Container>
           <Container  style={{ padding:'20px', margin: '0 auto'}}>
           <h2>Обратная связь</h2><br/>
-            <Forma  />
+            <FormCode onSubmit={this.submit}/>
           </Container>
         </div>
         <div style={{ width: '100%', height: '400px', position: 'relative' }}>
