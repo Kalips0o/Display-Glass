@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import s from './Header.module.css';
 import {Link, NavLink} from 'react-router-dom';
+import logo from './../assets/LogoDG.png'
 
 
 export class Header extends Component {
@@ -11,6 +12,7 @@ export class Header extends Component {
                 <Navbar collapseOnSelect expand='lg' bg='light' font-size="20px">
                     <Container>
                         <Navbar.Brand className={s.navBrand}>
+                            <img src={logo}/>
                             <Link to='/' onClick={() => {
                                 window.scrollTo(0, 0);
                             }}>Display Glass
