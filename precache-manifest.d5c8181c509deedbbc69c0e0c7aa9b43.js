@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ae639064d5947df95b430ecec9605a5",
+    "revision": "9d4516b374c8e29e19158ee5fa017111",
     "url": "/Display-Glass/index.html"
   },
   {
-    "revision": "c499c6cebbe2410d8794",
+    "revision": "ee283ada1e77fde5a89d",
     "url": "/Display-Glass/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "89906a7ec294ceccf82f",
-    "url": "/Display-Glass/static/css/main.0007c629.chunk.css"
+    "revision": "7c238f72fd2a43ffd0d1",
+    "url": "/Display-Glass/static/css/main.92feafc8.chunk.css"
   },
   {
-    "revision": "c499c6cebbe2410d8794",
-    "url": "/Display-Glass/static/js/2.ac2b3611.chunk.js"
+    "revision": "ee283ada1e77fde5a89d",
+    "url": "/Display-Glass/static/js/2.71e79637.chunk.js"
   },
   {
     "revision": "4cf5c6c6f464cc15458a86cbdc669a15",
-    "url": "/Display-Glass/static/js/2.ac2b3611.chunk.js.LICENSE.txt"
+    "url": "/Display-Glass/static/js/2.71e79637.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89906a7ec294ceccf82f",
-    "url": "/Display-Glass/static/js/main.b0f666f1.chunk.js"
+    "revision": "7c238f72fd2a43ffd0d1",
+    "url": "/Display-Glass/static/js/main.4bcc5a55.chunk.js"
   },
   {
     "revision": "13d2277ea32818231f92",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Display-Glass/static/media/3.d52d4f26.JPG"
   },
   {
-    "revision": "7eca72ca2036e3bc1c9e7aa0c3b1818d",
-    "url": "/Display-Glass/static/media/LogoDG.7eca72ca.png"
+    "revision": "0d4319fdd3845309dd494508b9e04a4e",
+    "url": "/Display-Glass/static/media/LogoDG.0d4319fd.png"
   },
   {
     "revision": "cbc939d07de31a8e2fb2d93ea9daf1a8",
