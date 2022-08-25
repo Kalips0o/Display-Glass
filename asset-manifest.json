@@ -1,33 +1,30 @@
 {
   "files": {
-    "main.css": "/Display-Glass/static/css/main.92feafc8.chunk.css",
-    "main.js": "/Display-Glass/static/js/main.4bcc5a55.chunk.js",
-    "main.js.map": "/Display-Glass/static/js/main.4bcc5a55.chunk.js.map",
+    "main.css": "/Display-Glass/static/css/main.a06c5b48.chunk.css",
+    "main.js": "/Display-Glass/static/js/main.6a0bb9e1.chunk.js",
+    "main.js.map": "/Display-Glass/static/js/main.6a0bb9e1.chunk.js.map",
     "runtime-main.js": "/Display-Glass/static/js/runtime-main.95c169c0.js",
     "runtime-main.js.map": "/Display-Glass/static/js/runtime-main.95c169c0.js.map",
     "static/css/2.80f479d8.chunk.css": "/Display-Glass/static/css/2.80f479d8.chunk.css",
-    "static/js/2.71e79637.chunk.js": "/Display-Glass/static/js/2.71e79637.chunk.js",
-    "static/js/2.71e79637.chunk.js.map": "/Display-Glass/static/js/2.71e79637.chunk.js.map",
+    "static/js/2.b8aa591a.chunk.js": "/Display-Glass/static/js/2.b8aa591a.chunk.js",
+    "static/js/2.b8aa591a.chunk.js.map": "/Display-Glass/static/js/2.b8aa591a.chunk.js.map",
     "index.html": "/Display-Glass/index.html",
-    "precache-manifest.d5c8181c509deedbbc69c0e0c7aa9b43.js": "/Display-Glass/precache-manifest.d5c8181c509deedbbc69c0e0c7aa9b43.js",
+    "precache-manifest.52d2506a15c94895e5d450574477abf2.js": "/Display-Glass/precache-manifest.52d2506a15c94895e5d450574477abf2.js",
     "service-worker.js": "/Display-Glass/service-worker.js",
     "static/css/2.80f479d8.chunk.css.map": "/Display-Glass/static/css/2.80f479d8.chunk.css.map",
-    "static/css/main.92feafc8.chunk.css.map": "/Display-Glass/static/css/main.92feafc8.chunk.css.map",
-    "static/js/2.71e79637.chunk.js.LICENSE.txt": "/Display-Glass/static/js/2.71e79637.chunk.js.LICENSE.txt",
+    "static/css/main.a06c5b48.chunk.css.map": "/Display-Glass/static/css/main.a06c5b48.chunk.css.map",
+    "static/js/2.b8aa591a.chunk.js.LICENSE.txt": "/Display-Glass/static/js/2.b8aa591a.chunk.js.LICENSE.txt",
     "static/media/1.JPG": "/Display-Glass/static/media/1.85e1d819.JPG",
-    "static/media/1.jpg": "/Display-Glass/static/media/1.b4d5a284.jpg",
-    "static/media/2.jpg": "/Display-Glass/static/media/2.97e9fb9f.jpg",
     "static/media/2.JPG": "/Display-Glass/static/media/2.f7ca0729.JPG",
     "static/media/3.JPG": "/Display-Glass/static/media/3.d52d4f26.JPG",
-    "static/media/3.jpg": "/Display-Glass/static/media/3.b0295eec.jpg",
     "static/media/LogoDG.png": "/Display-Glass/static/media/LogoDG.0d4319fd.png",
     "static/media/laba.JPG": "/Display-Glass/static/media/laba.cbc939d0.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.95c169c0.js",
     "static/css/2.80f479d8.chunk.css",
-    "static/js/2.71e79637.chunk.js",
-    "static/css/main.92feafc8.chunk.css",
-    "static/js/main.4bcc5a55.chunk.js"
+    "static/js/2.b8aa591a.chunk.js",
+    "static/css/main.a06c5b48.chunk.css",
+    "static/js/main.6a0bb9e1.chunk.js"
   ]
 }
