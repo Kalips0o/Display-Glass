@@ -13,6 +13,7 @@ import {Link} from 'react-router-dom';
 const Home = () => {
   return (
     <>
+      Здесь карусель
       {/*<CarouselBox />*/}
       <Container>
         <div className={s.main}>
