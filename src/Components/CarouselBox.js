@@ -11,23 +11,23 @@ export default class CarouselBox extends Component {
             <Carousel indicators={false}>
                 <Carousel.Item>
                     <img
-                        className='d-block w-100 img-fluid'
+                        className='d-block w-90 img-fluid'
                         src={Fly}
                         alt='fly'
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className='d-block w-100 img-fluid'
-                    src ={Sky}
-                    alt = 'fly'
+                        className='d-block w-90 img-fluid'
+                        src={Sky}
+                        alt = 'fly'
                     />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img 
-                    className='d-block w-100 img-fluid'
-                    src ={Sk}
-                    alt = 'fly'
+                    <img
+                        className='d-block w-90 img-fluid'
+                        src={Sk}
+                        alt = 'fly'
                     />
                 </Carousel.Item>
               

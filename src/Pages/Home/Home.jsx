@@ -7,24 +7,26 @@ import icon2 from '../../assets/icon/2.png';
 import icon3 from '../../assets/icon/3.png';
 import icon4 from '../../assets/icon/4.png';
 
-import CarouselBox2 from '../../Components/CarouselBox2';
+import CarouselBox from '../../Components/CarouselBox';
+
+
 import {Link} from 'react-router-dom';
+import CarouselBox2 from "../../Components/CarouselBox2";
 
 const Home = () => {
   return (
-    <>
-      Здесь карусель
-      {/*<CarouselBox />*/}
-      <Container>
-        <div className={s.main}>
-          <div className={s.products}>
-            <div className={s.productInfo}>
-              <div className={s.productInfoText}>
-                <h1>О НАС</h1>
-                <p>
-                  Наша компания находится в городе Минске. Компания была основана в июне 2014г. Наша компания
-                  специализируется на разработке и производстве систем отображения информации, систем дополненной
-                  реальности, ЭВМ для жестких условий эксплуатации.Предприятие имеет производственные площади с
+      <>
+        <CarouselBox/>
+        <Container>
+          <div className={s.main}>
+            <div className={s.products}>
+              <div className={s.productInfo}>
+                <div className={s.productInfoText}>
+                  <h1>О НАС</h1>
+                  <p>
+                    Наша компания находится в городе Минске. Компания была основана в июне 2014г. Наша компания
+                    специализируется на разработке и производстве систем отображения информации, систем дополненной
+                    реальности, ЭВМ для жестких условий эксплуатации.Предприятие имеет производственные площади с
                   чистой зоной, соответствующей классу чистоты ISO6 и ISO7, позволяющие выполнять любую работу,
                   связанную с дисплеями.
                 </p>
