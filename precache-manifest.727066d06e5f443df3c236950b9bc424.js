@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "994d112301406707ba44ea1377d08de6",
+    "revision": "7a2dd427e307de977b01986adb840795",
     "url": "/Display-Glass/index.html"
   },
   {
-    "revision": "b6029a4abc8c3ad43b37",
+    "revision": "de39d5cbf6810f0dd398",
     "url": "/Display-Glass/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "9e80d0ed401a6b33cf08",
+    "revision": "f006b98a0974a9b30489",
     "url": "/Display-Glass/static/css/main.a06c5b48.chunk.css"
   },
   {
-    "revision": "b6029a4abc8c3ad43b37",
-    "url": "/Display-Glass/static/js/2.b8aa591a.chunk.js"
+    "revision": "de39d5cbf6810f0dd398",
+    "url": "/Display-Glass/static/js/2.da33fe24.chunk.js"
   },
   {
     "revision": "4cf5c6c6f464cc15458a86cbdc669a15",
-    "url": "/Display-Glass/static/js/2.b8aa591a.chunk.js.LICENSE.txt"
+    "url": "/Display-Glass/static/js/2.da33fe24.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e80d0ed401a6b33cf08",
-    "url": "/Display-Glass/static/js/main.6a0bb9e1.chunk.js"
+    "revision": "f006b98a0974a9b30489",
+    "url": "/Display-Glass/static/js/main.dea43627.chunk.js"
   },
   {
     "revision": "13d2277ea32818231f92",
@@ -36,6 +36,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Display-Glass/static/media/1.85e1d819.JPG"
   },
   {
+    "revision": "b4d5a284aab1c097a173e70cc9afa682",
+    "url": "/Display-Glass/static/media/1.b4d5a284.jpg"
+  },
+  {
+    "revision": "97e9fb9fc4a7e0443c268b2ab4d7a741",
+    "url": "/Display-Glass/static/media/2.97e9fb9f.jpg"
+  },
+  {
     "revision": "eb5ad9a39414b5b9cb28f6d948a6604d",
     "url": "/Display-Glass/static/media/2.eb5ad9a3.JPG"
   },
@@ -46,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a5cfa6067dcd06ac933ed9ecc4f91e8f",
     "url": "/Display-Glass/static/media/3.a5cfa606.JPG"
+  },
+  {
+    "revision": "b0295eec7116c4195dcbb7f39af778df",
+    "url": "/Display-Glass/static/media/3.b0295eec.jpg"
   },
   {
     "revision": "d52d4f2629ab8e63a383e569ef3de304",
