@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a2dd427e307de977b01986adb840795",
+    "revision": "d21922613cd6eae8c49952742269ead1",
     "url": "/Display-Glass/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Display-Glass/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "f006b98a0974a9b30489",
-    "url": "/Display-Glass/static/css/main.a06c5b48.chunk.css"
+    "revision": "8979e9efbc4e87361496",
+    "url": "/Display-Glass/static/css/main.0348bd12.chunk.css"
   },
   {
     "revision": "de39d5cbf6810f0dd398",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Display-Glass/static/js/2.da33fe24.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f006b98a0974a9b30489",
-    "url": "/Display-Glass/static/js/main.dea43627.chunk.js"
+    "revision": "8979e9efbc4e87361496",
+    "url": "/Display-Glass/static/js/main.68afa280.chunk.js"
   },
   {
     "revision": "13d2277ea32818231f92",
