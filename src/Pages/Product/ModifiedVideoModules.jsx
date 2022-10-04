@@ -6,15 +6,15 @@ import s from '../About/About.module.css';
 import p from './Product.module.css';
 
 
-const Product = () => (
-  <>
-    <div className={s.pageTitle}>
-      <div className={s.center}>
-        <Container>
-          <h1> Разработки </h1>
-        </Container>
+const ModifiedVideoModules = () => (
+    <>
+      <div className={s.pageTitle}>
+        <div className={s.center}>
+          <Container>
+            <h1> Разработки </h1>
+          </Container>
+        </div>
       </div>
-    </div>
 
 
     <Container style={{paddingTop: '2%', paddingBottom: '2%'}}>
@@ -25,9 +25,6 @@ const Product = () => (
               <h5> Доработанные видеомодули </h5>
               <ModuleList/>
             </div>
-            <h5> Сверхъяркие видеомодули </h5>
-            <h5> Сенсорные экраны </h5>
-            <h5> Системы дополненной реальности </h5>
 
 
           </Col>
@@ -41,4 +38,4 @@ const Product = () => (
 )
 
 
-export default Product;
+export default ModifiedVideoModules;

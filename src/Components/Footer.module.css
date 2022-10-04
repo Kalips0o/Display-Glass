@@ -1,20 +1,17 @@
 .footer {
-    padding-top: 20px;
-    background-color: whitesmoke;
-    flex: 0 0 auto;
-    width: 100%;
-    min-height: 60px;
-    position: absolute;
-    
-   
-}
-
-.center {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 100px;
     background-color: whitesmoke;
-    display: flex;
-    margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1920px;
+    /*width: 90%;*/
+    min-height: 60px;
+    position: center;
+    margin-top: 20px;
+
 }
 
+#root {
+    width: 100%;
+}

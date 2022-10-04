@@ -7,11 +7,11 @@ import icon2 from '../../assets/icon/2.png';
 import icon3 from '../../assets/icon/3.png';
 import icon4 from '../../assets/icon/4.png';
 
-import CarouselBox from '../../Components/CarouselBox';
+import CarouselBox from '../../Components/CarouselBoxes/CarouselBox';
 
 
 import {Link} from 'react-router-dom';
-import CarouselBox2 from "../../Components/CarouselBox2";
+import CarouselBox2 from "../../Components/CarouselBoxes/CarouselBox2";
 
 const Home = () => {
   return (

@@ -7,7 +7,7 @@ const Footer = () => {
         
        <footer className={s.footer}>
            <Container>
-           <p>© 2020 ООО “Дисплей Гласс”. Все права защищены.</p>	
+           <p>© 2020 ООО “Дисплей Гласс”. Все права защищены.</p>
            </Container>
        </footer>
     )
